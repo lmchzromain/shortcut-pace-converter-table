@@ -7,7 +7,7 @@ const ReactDOMServer = require("react-dom/server");
 const { App } = require("./src/scripts/App");
 
 const fileName = "index.b64.txt";
-const title = "Hello world";
+const title = "Pace Converter Table";
 
 const content = ReactDOMServer.renderToStaticMarkup(App());
 const css = fs.readFileSync("./dist/styles.css", "utf8");
