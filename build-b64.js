@@ -7,6 +7,7 @@ const ReactDOMServer = require("react-dom/server");
 const { App } = require("./src/scripts/App");
 
 const fileName = "index.b64.txt";
+const title = "Hello world";
 
 const content = ReactDOMServer.renderToStaticMarkup(App());
 const css = fs.readFileSync("./dist/styles.css", "utf8");
@@ -17,7 +18,7 @@ const html = `
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello world</title>
+  <title>${title}</title>
   <style>
     ${css}
   </style>
