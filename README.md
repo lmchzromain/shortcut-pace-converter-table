@@ -2,6 +2,10 @@
 
 This project provides an iOS Shortcut that enables quick access to a running pace conversion table. The conversion table works **offline** and does not require any network requests.
 
+## Demo
+
+https://github.com/user-attachments/assets/73a85970-4e6c-4d58-b7a5-c887a1f075f2
+
 ## Features
 
 - Instant access to a running pace conversion table.
@@ -19,4 +23,5 @@ This Shortcut was created using the [react-static-b64](https://github.com/lmchzr
 
 ## Contributing
 
-Feel free to fork this repository and modify it to extend the functionality. Contributions for additional conversion units or other improvements are welcome!
+Feel free to fork this repository and modify it to extend the functionality.  
+Contributions for additional conversion units or other improvements are welcome!
