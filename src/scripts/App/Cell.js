@@ -8,9 +8,9 @@ const Cell = ({ children, className = "bg-white" }) => {
         className={clsx(
           "w-[120px]",
           "text-nowrap text-center",
-          "text-slate-800",
-          "px-2 py-1",
-          "text-sm"
+          "text-slate-700",
+          "px-2 py-2",
+          "text-xs"
         )}
       >
         {children}
